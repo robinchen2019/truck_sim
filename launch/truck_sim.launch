@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<launch>
+    <node ns="truck_001" pkg="truck_sim" name="truck_sim_node" type="truck_sim_node" output="screen">
+        <param name="port" value="1201" type = "int" />
+        <param name="initX" value="10.0" type = "double" />
+        <param name="initY" value="29.250" type = "double" />
+        <param name="initTheta" value="0.0" type = "double" />
+        <param name="position" value="Point-0001" type = "string" />
+        
+    </node>
+    
+    <node ns="truck_002" pkg="truck_sim" name="truck_sim_node" type="truck_sim_node" output="screen">
+        <param name="port" value="1202" type = "int" />
+        <param name="initX" value="10.0" type = "double" />
+        <param name="initY" value="26.50" type = "double" />
+        <param name="initTheta" value="0.0" type = "double" />
+        <param name="position" value="Point-0002" type = "string" />
+
+    </node>
+  
+    <node ns="truck_003" pkg="truck_sim" name="truck_sim_node" type="truck_sim_node" output="screen">
+        <param name="port" value="1203" type = "int" />
+        <param name="initX" value="10.0" type = "double" />
+        <param name="initY" value="23.750" type = "double" />
+        <param name="initTheta" value="0.0" type = "double" />
+        <param name="position" value="Point-0003" type = "string" />
+
+    </node>
+  
+    <node ns="truck_004" pkg="truck_sim" name="truck_sim_node" type="truck_sim_node" output="screen">
+        <param name="port" value="1204" type = "int" />
+        <param name="initX" value="10.0" type = "double" />
+        <param name="initY" value="21.550" type = "double" />
+        <param name="initTheta" value="0.0" type = "double" />
+        <param name="position" value="Point-0004" type = "string" />
+
+    </node>
+      
+    
+    
+</launch>
